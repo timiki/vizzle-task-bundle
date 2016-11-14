@@ -1,2 +1,2 @@
-Vizzle task
-===========
+Vizzle tasks and schedule
+=========================

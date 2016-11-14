@@ -1,0 +1,34 @@
+<?php
+
+namespace {{ namespace }}\Task;
+
+use Vizzle\TaskBundle\Mapping;
+use Symfony\Component\DependencyInjection\ContainerAwareInterface;
+use Symfony\Component\DependencyInjection\ContainerAwareTrait;
+
+/**
+ * @Mapping\Task(
+ *     name="{{ name }}",
+ *     description=""
+ * )
+ */
+class {{ class }} implements ContainerAwareInterface
+{
+    use ContainerAwareTrait;
+
+    /**
+     * @Mapping\Param()
+     */
+    protected $myParam;
+
+    /**
+     * @Mapping\Execute()
+     */
+    public function execute()
+    {
+
+        // Task code...
+        // $this->myParam;
+
+    }
+}
