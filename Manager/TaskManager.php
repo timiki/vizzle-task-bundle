@@ -60,7 +60,7 @@ class TaskManager implements ContainerAwareInterface, MapperAwareInterface
      * @param string $task Task name.
      *
      * @return bool
-     * @throws \Vizzle\Common\Mapper\Exceptions\InvalidMappingException
+     * @throws \Vizzle\VizzleBundle\Mapper\Exceptions\InvalidMappingException
      */
     public function isTaskExist($task)
     {

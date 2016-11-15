@@ -21,7 +21,6 @@ use Cron\CronExpression;
  */
 class ScheduleService implements ContainerAwareInterface
 {
-
     use ContainerAwareTrait;
 
     /**

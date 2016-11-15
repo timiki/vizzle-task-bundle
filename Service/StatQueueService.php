@@ -19,7 +19,6 @@ use Vizzle\TaskBundle\Entity\Stat\TaskQueue;
  */
 class StatQueueService implements ContainerAwareInterface
 {
-
     use ContainerAwareTrait;
 
     /**

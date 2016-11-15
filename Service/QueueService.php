@@ -21,7 +21,6 @@ use Vizzle\TaskBundle\Entity\Queue;
  */
 class QueueService implements ContainerAwareInterface
 {
-
     use ContainerAwareTrait;
 
     /**
